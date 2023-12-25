@@ -26,3 +26,6 @@ from .resnet import (
 )
 from .convnext import ConvNeXt
 from .focalnet import FocalNet
+from .internimage import InternImage
+from .eva import EVAViT, SimpleFeaturePyramid, get_vit_lr_decay_rate
+from .eva_02 import EVA02_ViT
